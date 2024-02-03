@@ -1,7 +1,7 @@
 server {
   listen 80;
   listen [::]:80;
-  server_name 192.169.25.46;
+  server_name 192.169.0.110;
 
   # Add index.php to the list if you are using PHP
   index index.html index.htm index.nginx-debian.html index.php;
@@ -63,5 +63,5 @@ server {
 
   access_log off;
   #access_log  /var/log/nginx/10.1.74.56-access.log;
-  error_log   /var/log/nginx/192.168.25.46-error.log;
+  error_log   /var/log/nginx/192.168.0.110-error.log;
 }

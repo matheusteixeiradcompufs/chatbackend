@@ -1,5 +1,5 @@
 [Unit]
-Description=Gunicorn daemon (You can change if you want)
+Description=Gunicorn Chat
 Requires=chatbackend.socket
 After=network.target
 
